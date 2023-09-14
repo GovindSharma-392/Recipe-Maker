@@ -1,0 +1,128 @@
+/* Custom CSS for the recipe website */
+
+/* Background image for the entire webpage */
+body {
+    background-image: url("img6.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 20px; /* Add margin around the entire webpage */
+  }
+    
+    /* Styling for the navigation bar */
+  .navbar {
+    background-color: #333; /* Dark background color for the navbar */
+    color: #fff; /* Text color for the navbar */
+    padding: 10px;
+    display: flex;
+    align-items: center;  
+    }
+  .button{
+    color: white;
+    padding: 3px;
+    border-radius: 5px;
+    }
+    
+  .nav-text {
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: auto;
+  }
+    
+  .nav-buttons {
+    margin-left: 20px;
+    color: #fff;
+    text-decoration: none;
+  }
+    
+    /* Styling for the search form */
+  .form-control {
+    width: 100%; /* Adjust the width of the search input field to take full width */
+    margin-bottom: 10px; /* Add margin at the bottom of the search bar */
+  }
+    
+  .container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .row {
+    display: flex;
+    width: 40%;
+    margin: 5px;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    text-shadow: #333;
+    background-color: rgb(84, 140, 152);
+    border-radius: 20px;
+    padding: 20px 20px;
+  }
+  .button{
+    background-color: bisque;
+    width: 30px;
+    height: 40px;
+    color: darkslategrey;
+    text-align: center;
+
+  }
+  .image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+    
+  .card {
+    width: 100%; /* Create 3 cards in a row with reduced gap */
+    margin: 10px 0; /* Add margin around the recipe cards */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow to the cards */
+    border-radius: 5px; /* Rounded corners for the cards */
+    transition: transform 0.2s ease-in-out; /* Add a smooth transition effect when hovering over the cards */
+  }
+    
+  .card:hover {
+    transform: scale(1.05); /* Scale up the card slightly when hovering over it */
+  }
+    
+  .card-img-top {
+    max-height: 150px; /* Adjust the height of the recipe card images */
+    object-fit: cover;
+  }
+    
+  .card-body {
+    padding: 10px;
+  }
+    
+  .card-title {
+    font-size: 18px;
+    font-weight: bold;
+  }
+    
+  .card-text {
+    font-size: 14px;
+    color: #444;
+  }
+  
+  .modal-body {
+    max-height: 400px; /* Set a maximum height for the modal body to prevent overflow */
+    overflow-y: auto; /* Enable vertical scrolling if the content overflows */
+  }
+  
+  .modal-title {
+    font-size: 22px;
+  }
+  
+  .modal-body h6 {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .modal-body p {
+    font-size: 16px;
+    color: #444;
+  }
+  
